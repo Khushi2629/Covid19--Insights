@@ -64,8 +64,8 @@ def make_continents(in_path, out_path):
 
 if __name__ == '__main__':
 
-    in_path = './data/raw/datahub'
-    out_path = './data/processed'
+    in_path = './data_set/raw/datahub'
+    out_path = './data_set/processed'
 
     make_continents(in_path=in_path,
                    out_path=out_path)        

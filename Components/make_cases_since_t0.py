@@ -24,7 +24,7 @@ def get_cases_since_t0(df, n_cases_start=100):
     conf_t0 = reduce(outer_join, conf_t0)    
     conf_t0.columns = all_countries
     conf_t0 = conf_t0.head(n_cases_start)
-    # conf_t0 = conf_t0.dropna(axis=1)
+    
 
     return conf_t0
 
@@ -38,8 +38,8 @@ def make_cases_since_t0(in_path, out_path):
 
 if __name__ == '__main__':
 
-    in_path = './data/processed'
-    out_path = './data/processed'
+    in_path = './data_set/processed'
+    out_path = './data_set/processed'
 
     make_cases_since_t0(in_path=in_path,
                         out_path=out_path)        

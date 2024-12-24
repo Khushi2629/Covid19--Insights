@@ -5,10 +5,10 @@ class TestCovidCases(unittest.TestCase):
 
     def setUp(self):
 
-        self.confirmed_cases = pd.read_csv('./data_set/processed/confirmed_cases.csv')
-        self.recovered_cases = pd.read_csv('./data_set/processed/recovered_cases.csv')
-        self.dead_cases = pd.read_csv('./data_set/processed/dead_cases.csv')
-        self.active_cases = pd.read_csv('./data_set/processed/active_cases.csv')                
+        self.confirmed_cases = pd.read_csv('./data/processed/confirmed_cases.csv')
+        self.recovered_cases = pd.read_csv('./data/processed/recovered_cases.csv')
+        self.dead_cases = pd.read_csv('./data/processed/dead_cases.csv')
+        self.active_cases = pd.read_csv('./data/processed/active_cases.csv')                
 
     def test_confirmed_boats(self):
 

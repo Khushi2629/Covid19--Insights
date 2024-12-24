@@ -13,7 +13,7 @@ class CovidDataViz(object):
 
     """
 
-    def __init__(self, path='../data/processed'):
+    def __init__(self, path='../data_set/processed'):
 
         self.path = path
         self.data = dict()

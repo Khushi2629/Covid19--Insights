@@ -118,8 +118,8 @@ def make_world_bank(in_path, out_path):
 
 if __name__ == '__main__':
 
-    in_path = './data/raw/world_bank'
-    out_path = './data/processed'
+    in_path = './data_set/raw/world_bank'
+    out_path = './data_set/processed'
 
     make_world_bank(in_path=in_path,
                     out_path=out_path)

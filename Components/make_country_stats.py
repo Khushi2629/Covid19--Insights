@@ -41,8 +41,8 @@ def make_country_stats(in_path, out_path):
 
 if __name__ == '__main__':
 
-    in_path = './data_set/processed'
-    out_path = './data_set/processed'
+    in_path = './data/processed'
+    out_path = './data/processed'
 
     make_country_stats(in_path=in_path,
                    out_path=out_path)    

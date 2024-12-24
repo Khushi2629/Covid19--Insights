@@ -9,12 +9,12 @@ from make_mortality import make_mortality
 from make_world_bank import make_world_bank
 
 # Inputs
-datahub_path = './data_set/raw/datahub'
-covid_path = './data_set/raw/COVID-19/csse_covid_19_data/csse_covid_19_time_series'
-world_bank_path = './data_set/raw/world_bank'
+datahub_path = './data/raw/datahub'
+covid_path = './data/raw/COVID-19/csse_covid_19_data/csse_covid_19_time_series'
+world_bank_path = './data/raw/world_bank'
 
 # Outputs
-out_path = './data_set/processed'
+out_path = './data/processed'
 
 # Datasets generated from raw data
 make_cases(in_path=covid_path, out_path=out_path)

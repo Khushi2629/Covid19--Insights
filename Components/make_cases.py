@@ -4,7 +4,7 @@ from utils import remove_boats, rename_countries
 
 def read_data(path):
     """
-    Read data from ../data/COVID-19
+    Read data from ../data_set/COVID-19
     """
 
     conf = pd.read_csv(f'{path}/time_series_covid19_confirmed_global.csv')
@@ -78,8 +78,8 @@ def make_cases(in_path, out_path):
 
 if __name__ == '__main__':
 
-    in_path = './data/raw/COVID-19/csse_covid_19_data/csse_covid_19_time_series'
-    out_path = './data/processed'
+    in_path = './data_set/raw/COVID-19/csse_covid_19_data/csse_covid_19_time_series'
+    out_path = './data_set/processed'
 
     make_cases(in_path=in_path,
                out_path=out_path)

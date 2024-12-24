@@ -43,8 +43,8 @@ def make_mortality(in_path, out_path):
 
 if __name__ == '__main__':
 
-    in_path = './data/processed'
-    out_path = './data/processed'
+    in_path = './data_set/processed'
+    out_path = './data_set/processed'
 
     make_mortality(in_path=in_path,
                    out_path=out_path)    

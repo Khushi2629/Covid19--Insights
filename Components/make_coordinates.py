@@ -33,8 +33,8 @@ def make_coordinates(in_path, out_path):
 
 if __name__ == '__main__':
 
-    in_path = './data/raw/COVID-19/csse_covid_19_data/csse_covid_19_time_series'
-    out_path = './data/processed'
+    in_path = './data_set/raw/COVID-19/csse_covid_19_data/csse_covid_19_time_series'
+    out_path = './data_set/processed'
 
     make_coordinates(in_path=in_path,
                    out_path=out_path)        
